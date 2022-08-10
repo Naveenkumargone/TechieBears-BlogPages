@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog - DetailPage</title>
+        <link rel="stylesheet" href="./css/Detailpage.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            />
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+            integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"
+            />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+            integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+
+
+        <!--  header section -->
+        <div class="position-absolute col-12" id="navbar">
+            <!-- Simulate a smartphone / tablet -->
+            <div class="mobile-container container gx-0">
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+                    <a href="#home" class="active">
+                        <img src="./images/logo.png" alt="">
+                        <p>TechieBears</p>
+                        <div id="myLinks">
+                            <a href="#news">Home</a>
+                            <a href="#contact">Web Development</a>
+                            <a href="#about">App Development</a>
+                            <a href="#about">Graphic Designing</a>
+                            <a href="#about">Software Development</a>
+                        </div>
+                        <a href="javascript:void(0);" class="icon"
+                            onclick="myFunction()">
+                            <i class="fa fa-bars" id="menu"></i>
+                            <i class="fa-solid fa-xmark" id="close"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- End smartphone / tablet look -->
+
+
+
+                <div class="container-fluid position-relative header-container">
+                    <header class="d-flex flex-wrap align-items-center
+                        justify-content-center justify-content-lg-between
+                        justify-content-md-between py-3 mb-4
+                        header-part">
+
+                        <div class="icons-outer d-flex justify-content-around
+                            col-lg-2 col-md-2">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+
+                        <ul class="nav col-12 nav-headings col-md-auto mb-2
+                            justify-content-center mb-md-0">
+                            <li><a href="#" class="nav-link link-secondary">Home</a></li>
+                            <li><a href="#" class="nav-link link-dark">Web
+                                    Development</a></li>
+                            <li><a href="#" class="nav-link link-dark">App
+                                    Development</a></li>
+                            <li><a href="#" class="nav-link link-dark">Graphic
+                                    Designing</a></li>
+                        </ul>
+
+                        <div class="col-md-2 d-flex justify-content-center">
+                            <div class="tb-logo">
+                                <a href="">
+                                    <img src="./images/logo.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </header>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- banner section -->
+            <div class="position-relative top-0 w-100" id="section2">
+                <div class="container-fluid p-0 position-relative bg-black"
+                    id="section2">
+                    <img src="./images/banner.png" alt="" class="w-100
+                        banner-img">
+                </div>
+                <div class="position-absolute heading welcome-heading w-100">
+                    <h2 class="text-white text-center">
+                        <span>WELCOME TO OUR</span>
+                        <!-- <br> -->
+                        <span style="color: #f1c30f;">BLOGS</span>
+                    </h2>
+                </div>
+
+                <div class="position-absolute arrow d-flex
+                    justify-content-center
+                    align-items-center">
+                    <a href="#scroll-id" id="scroll-id"><img
+                            src="./images/arrow.png" alt=""
+                            width="50"></a>
+                </div>
+            </div>
+
+
+
+
+            <!-- Blog content section  -->
+            <div class="row col-lg-12 bg-black m-0 py-5 px-4">
+                <div class="container">
+                    <div class="row col-lg-12 m-0">
+                        <div class="contant col-lg-8" style="font-size: 10px;
+                            color:
+                            white;">
+
+                            <h1 class="pt-5 pb-3 blog-heading">Best Web
+                                Development
+                                Blogs To
+                                Follow Right Now
+                                [2022]</h1>
+                            <div class="paragraph pb-lg-2" style="font-size:
+                                20px;">
+                                <p class="color:white;">The vast plains of the
+                                    internet can be a bit overwhelming at times.
+                                    Finding what you need has never been easier,
+                                    but
+                                    with billions of information fighting for
+                                    your
+                                    attention, it’s hard not to get lost. So if
+                                    you’re struggling with
+                                    finding proven blogs on <span>web
+                                        development</span>,
+                                    you’ve come to the right place.</p>
+                            </div>
+
+
+                            <div class="paragraph pb-lg-2" style="font-size:
+                                20px;
+                                color:
+                                white;">
+                                <p>With this list of 10 best web development
+                                    blogs,
+                                    with a treat of best YouTube channels and
+                                    podcasts, you’ll be able to stay up to date
+                                    with
+                                    the latest web standards on all fronts —
+                                    front
+                                    end, back end, as well as UX/UI design,
+                                    and every other branch pertaining to the web
+                                    development services.</p>
+                            </div>
+                            <div class="paragraph pb-lg-2" style="font-size:
+                                20px;
+                                color:
+                                white;">
+                                <p>Your experience doesn’t matter; if you’re a
+                                    code
+                                    newbie looking for new skills or you’re a
+                                    veteran in the coding world looking for
+                                    latest
+                                    news, new standards or solutions to
+                                    unconventional problems, this list is still
+                                    for
+                                    you.
+                                    And even if you’re neither, and you simply
+                                    want
+                                    to discover all the things web development
+                                    is
+                                    about, stay on this page and read on!</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 pe-lg-3 blog-image">
+                                    <img src="./images/Rectangle 24.png"
+                                        class="img-thumbnail p-0 border-0
+                                        rounded-0">
+                                </div>
+                                <div class="container col-6 paragraph pt-lg-3
+                                    ps-lg-4 blog-image-para" style="font-size:
+                                    20px;
+                                    color:white;">
+                                    <p>The articles are of the highest quality.
+                                        They
+                                        do invite writers to submit their
+                                        pieces,
+                                        but they’re all diligently checked over,
+                                        reviewed, and edited. It’s not easy to
+                                        submit a guest post, but they promise
+                                        that
+                                        it’s very rewarding.
+                                        So you can expect to find articles from
+                                        other <span style="color: f1c30f;">IT
+                                            professionals
+                                        </span>, keen on sharing their coding
+                                        expertise.</p>
+                                    <p>A List Apart doesn’t stop at blogging.
+                                        They
+                                        also organise An Event Apart, a
+                                        conference
+                                        in San Francisco (which you can also
+                                        join.</p>
+                                </div>
+                                <div class="paragraph" style="font-size: 20px;
+                                    color: white;">
+                                    <p>our experience doesn’t matter; if you’re
+                                        a
+                                        code newbie looking for new skills or
+                                        you’re
+                                        a veteran in the coding world looking
+                                        for
+                                        latest news, new standards or solutions
+                                        to
+                                        unconventional problems, this list is
+                                        still
+                                        for you.
+                                        And even if you’re neither, and you
+                                        simply
+                                        want to discover all the things <span>
+                                            web
+                                            development
+                                        </span>is about, stay on this page and
+                                        read
+                                        on!</p>
+
+                                </div>
+                                <div class="paragraph" style="font-size: 20px;
+                                    color: white;">
+                                    <p>With this list of 10 best web development
+                                        blogs, with a treat of best YouTube
+                                        channels
+                                        and podcasts, you’ll be able to stay up
+                                        to
+                                        date with the latest web standards on
+                                        all
+                                        fronts — front end, back end, as well as
+                                        <span> UI/UX</span>design,
+                                        and every other branch pertaining to the
+                                        web
+                                        development services. </p>
+
+                                </div>
+                                <div class="paragraph" style="font-size: 20px;
+                                    color: white;">
+                                    <p>Your experience doesn’t matter; if you’re
+                                        a
+                                        code newbie looking for new skills or
+                                        you’re
+                                        a veteran in the <span> coding world</span>looking
+                                        for latest news, new standards or
+                                        solutions
+                                        to unconventional problems, this list is
+                                        still for you. And even if you’re
+                                        neither,
+                                        and you simply want to discover all the
+                                        things web development is about, stay on
+                                        this page and read on! </p>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-7 paragraph
+                                        blog-image-para3"
+                                        style="font-size:
+                                        20px;
+                                        color:white;">
+                                        <p>The articles are of the highest
+                                            quality.
+                                            They do invite writers to submit
+                                            their
+                                            pieces, but they’re all diligently
+                                            checked over, reviewed, and edited.
+                                            It’s
+                                            not easy to submit a guest post, but
+                                            they promise that it’s very
+                                            rewarding. So you can expect to find
+                                            articles from other IT
+                                            professionals,
+                                            keen on sharing their coding
+                                            expertise.
+                                            The articles are of the highest
+                                            quality.
+                                            They do invite writers to submit
+                                            their
+                                            pieces, but they’re
+                                            all diligently checked over,
+                                            reviewed So
+                                            you can expect.</p>
+
+                                    </div>
+                                    <div class="col-5 blog-image2">
+                                        <img src="./images/Rectangle 25.png"
+                                            class="img-thumbnail p-0 border-0
+                                            rounded-0">
+
+                                    </div>
+                                </div>
+                                <div class="paragraph blog-image-para2"
+                                    style="font-size: 20px;
+                                    color: white;">
+                                    <p>Your experience doesn’t matter; if you’re
+                                        a
+                                        code newbie looking for new skills or
+                                        you’re
+                                        a veteran in the coding world looking
+                                        for
+                                        latest news, new standards or solutions
+                                        to
+                                        unconventional problems, this list is
+                                        still
+                                        for you.
+                                        And even if you’re neither, and you
+                                        simply
+                                        want to discover all the things <span>
+                                            web
+                                            development
+                                        </span>is about, stay on this page and
+                                        read
+                                        on!</p>
+
+                                </div>
+                                <div class="paragraph" style="font-size: 20px;
+                                    color: white;">
+                                    <p>With this list of 10 best web development
+                                        blogs, with a treat of best YouTube
+                                        channels
+                                        and podcasts, you’ll be able to stay up
+                                        to
+                                        date with the latest web standards on
+                                        all
+                                        fronts — front end, back end, as well as
+                                        <span> UX/UI design</span>,
+                                        and every other branch pertaining to the
+                                        web
+                                        development services. </p>
+
+                                </div>
+                                <div class="paragraph" style="font-size: 20px;
+                                    color: white;">
+                                    <p>Your experience doesn’t matter; if you’re
+                                        a
+                                        code newbie looking for new skills or
+                                        you’re
+                                        a veteran in the coding world looking
+                                        for
+                                        latest news, new standards or solutions
+                                        to
+                                        unconventional problems, this list is
+                                        still
+                                        for you.
+                                        And even if you’re neither, and you
+                                        simply
+                                        want to discover all the things web
+                                        development is about, stay on this page
+                                        and
+                                        read on! </p>
+
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+                        <div class="col-lg-4 d-flex flex-column right-side-nav"
+                            style="background-color: #f1c30f; height:
+                            fit-content;
+                            padding-bottom: 55px;">
+
+                            <div class="nav my-3 my-xl-0 flex-nowrap
+                                align-items-center" style="margin-top: 25px !important;">
+                                <div class="nav-item w-100">
+                                    <form class="position-relative bg-black
+                                        side-nav-form">
+                                        <input class="form-control pe-5
+                                            bg-transparent side-nav-input
+                                            border-0"
+                                            style="color: #f1c30f;"
+                                            type="search"
+                                            placeholder="Search..."
+                                            aria-label="Search">
+                                        <button class="bg-transparent p-2
+                                            position-absolute top-50 end-0
+                                            translate-middle-y border-0
+                                            text-primary-hover text-reset"
+                                            type="submit">
+                                            <i class="fas fa-search fs-6"
+                                                style="color: #f1c30f;"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-4 col-sm-4 text-center
+                                mt-lg-5 pb-lg-3
+                                pb-md-3 pb-sm-3 w-100 related-posts"
+                                style="background-color: #000; border-radius:
+                                35px;
+                                ">
+                                <div class="pt-lg-4 pb-3 related-post">
+                                    <span>RELATED POSTS</span>
+                                </div>
+                                <div>
+                                    <ul class="side-nav-content">
+                                        <li>Application Development Services</li>
+                                        <li>Best App Development Blogs</li>
+                                        <li>Best Web Development Blogs</li>
+                                        <li>Best Graphic Design Blogs</li>
+                                        <li>Learn Graphic Design Quick</li>
+                                        <li>Application Development Services</li>
+                                        <li>Best App Development Blogs</li>
+                                        <li>Best Web Development Blogs</li>
+                                        <li>Best Graphic Design Blogss</li>
+                                        <li>Learn Graphic Design Quick</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-4 col-sm-4 text-center
+                                mt-lg-5 pb-lg-3 pb-md-3 pb-sm-3 w-100
+                                related-posts"
+                                style="background-color: #000; border-radius:
+                                35px;">
+                                <div class="pt-lg-4 pb-3 related-post">
+                                    <span>CATEGORIES</span>
+                                </div>
+                                <div class="col-lg-12">
+                                    <ul style="list-style: disc; color: #fff;"
+                                        class="side-nav-content">
+                                        <li>Web Development</li>
+                                        <li>App Development</li>
+                                        <li>Software Development</li>
+                                        <li>Software Services</li>
+                                        <li>Graphic Designing</li>
+                                        <li>UI/UX Designing</li>
+                                        <li>SEO Marketing</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-4 col-sm-4 text-center
+                                mt-lg-5 pb-lg-3
+                                pb-md-3 pb-sm-3 w-100 related-posts"
+                                style="background-color: #000; border-radius:
+                                35px;
+                                ">
+                                <div class="pt-lg-4 pb-3 related-post">
+                                    <span>SELECT KEYWORDS</span>
+                                </div>
+                                <div class="col-lg-12">
+                                    <ul style="list-style: disc; color: #fff;"
+                                        class="side-nav-content">
+                                        <li>Learn UI/UX Designing</li>
+                                        <li>JavaScript Tutorials</li>
+                                        <li>The Difference Between Java and
+                                            JavaScript</li>
+                                        <li>What is AWS</li>
+                                        <li>How to Design UI/UX</li>
+                                        <li>How to Develop Application</li>
+                                        <li>Learn UI/UX Designing</li>
+                                        <li>JavaScript Tutorials</li>
+                                        <li>The Difference Between Java and
+                                            JavaScript</li>
+                                        <li>What is AWS</li>
+                                        <li>How to Design UI/UX</li>
+                                        <li>How to Develop Application</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <!--  reviews section -->
+            <div class="col-lg-12 bg-black">
+                <div class="container">
+                    <div class="row col-lg-8 py-3 px-3 review-outer"
+                        style="background-color:
+                        #212121; padding-bottom: 100px !important;">
+                        <div>
+                            <span>Reviews</span>
+                        </div>
+
+                        <div class="row reviews-section" style="border-bottom:
+                            2px
+                            solid rgb(158, 148, 148)">
+                            <div class="col-2 reviews-image p-0 m-0">
+                                <img src="./images/Rectangle 24.png"
+                                    class="img-thumbnail p-0 border-0 "
+                                    style="height: 90px !important; width: 90px;
+                                    border-radius:100%;">
+                            </div>
+                            <div class="col-10">
+                                <h4 style="color: white; font-size: 20px;">September
+                                    25, 2019</h4>
+                                <ul class="p-0 mb-0" style="color: yellow;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+
+                                </ul>
+                                <div class="reviews-para">
+                                    <p style="color: white; font-size: 20px;">Lorem
+                                        Ipsum is simply dummy text of the
+                                        printing
+                                        and typesetting industry. Lorem Ipsum
+                                        has
+                                        been the industry's standard dummy text
+                                        ever
+                                        since the 1500s,</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row reviews-section" style="border-bottom:
+                            2px
+                            solid rgb(158, 148, 148)">
+                            <div class="col-2 reviews-image p-0 m-0">
+                                <img src="./images/Rectangle 25.png"
+                                    class="img-thumbnail p-0 border-0 "
+                                    style="height: 90px !important; width: 90px;
+                                    border-radius:100%; display: flex;">
+                            </div>
+                            <div class="col-10">
+                                <h4 style="color: white; font-size: 20px;">September
+                                    25, 2019</h4>
+                                <ul class="p-0 mb-0" style="color: yellow;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+
+                                </ul>
+                                <div class="reviews-para">
+                                    <p style="color: white; font-size: 20px;">Lorem
+                                        Ipsum is simply dummy text of the
+                                        printing
+                                        and typesetting industry. Lorem Ipsum
+                                        has
+                                        been the industry's standard dummy text
+                                        ever
+                                        since the 1500s,</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row reviews-section" style="border-bottom:
+                            2px
+                            solid rgb(158, 148, 148)">
+                            <div class="col-2 reviews-image p-0 m-0">
+                                <img src="./images/Rectangle 24.png"
+                                    class="img-thumbnail p-0 border-0 "
+                                    style="height: 90px !important; width: 90px;
+                                    border-radius:100%; display: flex;">
+                            </div>
+                            <div class="col-10">
+                                <h4 style="color: white; font-size: 20px;">September
+                                    25, 2019</h4>
+                                <ul class="p-0 mb-0" style="color: yellow;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+
+                                </ul>
+                                <div class="reviews-para">
+                                    <p style="color: white; font-size: 20px;">Lorem
+                                        Ipsum is simply dummy text of the
+                                        printing
+                                        and typesetting industry. Lorem Ipsum
+                                        has
+                                        been the industry's standard dummy text
+                                        ever
+                                        since the 1500s,</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row reviews-section" style="border-bottom:
+                            2px
+                            solid rgb(158, 148, 148)">
+                            <div class="col-2 reviews-image p-0 m-0">
+                                <img src="./images/Rectangle 25.png"
+                                    class="img-thumbnail p-0 border-0 "
+                                    style="height: 90px !important; width: 90px;
+                                    border-radius:100%; display: flex;">
+                            </div>
+                            <div class="col-10">
+                                <h4 style="color: white; font-size: 20px;">September
+                                    25, 2019</h4>
+                                <ul class="p-0 mb-0" style="color: yellow;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+
+                                </ul>
+                                <div class="reviews-para">
+                                    <p style="color: white; font-size: 20px;">Lorem
+                                        Ipsum is simply dummy text of the
+                                        printing
+                                        and typesetting industry. Lorem Ipsum
+                                        has
+                                        been the industry's standard dummy text
+                                        ever
+                                        since the 1500s,</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button style="background-color: rgb(33,33,33);
+                                color:
+                                #fff; border: none; float: right;">
+                                Load More >>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Up arrow and buttons section -->
+            <div class="bg-black py-lg-4 ">
+                <div class="container bg-black">
+
+                    <div>
+                        <!-- up arrow section -->
+                        <div class="bg-black py-lg-4 ">
+                            <div class="container bg-black">
+                                <div class="float-end position-fixed
+                                    uparrow"
+                                    style="right: 30px;
+                                    bottom: 50px;">
+                                    <a href="#section2" id="up-arrow"
+                                        style="color:#000; padding:
+                                        10px 8px 8px 10px; background-color:
+                                        #f1c30f;
+                                        position:
+                                        sticky ;">
+                                        <i style="font-size: 25px;"
+                                            class="fa-solid
+                                            fa-turn-up"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- footer section -->
+            <div class="footer">
+                <div class="container">
+                    <footer class="pt-5">
+                        <div class="row">
+                            <div class="col-12 col-md-6 mb-3 send-your-req">
+                                <div class="footer-heading col-lg-9 pt-lg-5
+                                    pb-sm-5">
+                                    <h3 style="margin-bottom: 20px;">
+                                        <span class="text-white">SEND YOUR</span>
+                                        <i>REQUIREMENT</i>
+                                    </h3>
+                                    <div class="d-inline-block input-vector">
+                                        <input type="text" placeholder="Your
+                                            Email"
+                                            class="pt-lg-2 pb-1">
+                                        <img src="./images/Vector.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-5 offset-md-1 mb-3">
+                                <div class="col-lg-3 p-0 footer-img">
+                                    <img src="./images/footer-img.png" alt=""
+                                        width="310"
+                                        style="border-bottom: #555;">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row footer-social-elements">
+                            <div class="col-6 col-md-2 mb-3
+                                footer-social-element1">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a href="#"
+                                            class="nav-link p-0 text-black">ABOUT</a></li>
+                                    <li class="nav-item mb-2"><a href="#"
+                                            class="nav-link p-0 text-black">SERVICES</a></li>
+                                    <li class="nav-item mb-2"><a href="#"
+                                            class="nav-link p-0 text-black">DOCUMENTS</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-6 col-md-2 mb-3">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a href="#"
+                                            class="nav-link p-0 text-black">TERMS
+                                            &
+                                            CONDITIONS</a></li>
+                                    <li class="nav-item mb-2"><a href="#"
+                                            class="nav-link p-0 text-black">PRIVACY
+                                            POLICY</a></li>
+                                    <li class="nav-item mb-2"><a href="#"
+                                            class="nav-link p-0 text-black">COOKIES
+                                            POLICY</a></li>
+
+                                </ul>
+                            </div>
+
+                            <div class="col-6 col-md-2 mb-3 social-icons-outer">
+                                <ul class="nav flex-row flex-nowrap
+                                    lets-chat-outer">
+                                    <li class="nav-item mb-2">
+                                        <a href="#"
+                                            class="nav-link p-0 text-black">LET’S
+                                            CHAT!</a></li>
+                                    <li class="nav-item mb-2"> <i
+                                            class="fa-solid
+                                            fa-comment-dots" style="
+                                            line-height: 1; padding-left: 10px;
+                                            font-size: 22px;"></i></li>
+                                </ul>
+                                <ul class="nav flex-row
+                                    justify-content-sm-between
+                                    social-icons">
+                                    <li class=""><a href=""><i class="fa-brands
+                                                fa-facebook-f" style="color:
+                                                #000;"></i></a></li>
+                                    <li class=""><a href=""><i class="fa-brands
+                                                fa-twitter ps-lg-3"
+                                                style="color: #000;"></i></a></li>
+                                    <li class=""><a href=""><i class="fa-brands
+                                                fa-linkedin-in ps-lg-3"
+                                                style="color: #000;"></i></a></li>
+                                    <li class=""><a href=""><i class="fa-brands
+                                                fa-google-plus-g ps-lg-3"
+                                                style="color: #000;"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="d-flex flex-column flex-md-row
+                            justify-content-between pt-4 my-0 border-top
+                            copyright">
+                            <p>© 2021 TechieBears.com <a href=""
+                                    style="text-decoration: none; color: #000;">More
+                                    info</a> </p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </body>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+                var menu = document.getElementById("menu").style.display = "block"
+                var close = document.getElementById("close").style.display = "none"
+              } else {
+                x.style.display = "block";
+                var close = document.getElementById("close").style.display = "block"
+                var menu = document.getElementById("menu").style.display = "none"
+              }
+            }
+    </script>
+    </html
